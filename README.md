@@ -1,6 +1,8 @@
-Node application for dynamic peoples page of Information Integration Research group at ISI, USC.
+Node application for people page of Information Integration Research group at ISI, USC.
 =======
-division-page
+npm install express stylus nib jade async http
+
+node app
 =============
 
 Division page node app
