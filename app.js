@@ -41,21 +41,23 @@ requestParams.uris = [   {  useRegEx: "true" , uriString: "^" + 'http://lod.isi.
 								// build different objects based on type of Position 
 								for(var i=0; i < globalData.people.length ; i++ ){
 									var pos = globalData.people[i]['http://vivoweb.org/ontology/core#personInPosition'];
-									var posType = pos[1].value;
+									console.log("^^^^^^^^^^^^^^^^^^^^^^^");
+									console.log(pos);
+									var posType = pos[0].value;
 									switch (posType) {
-									case 'http://lod.isi.edu/position/Professor':
+									case 'http://lod.isi.edu/position_type/Professor':
 										  globalData.professors.push(globalData.people[i]);	
 										  break;
 									
-									case 'http://lod.isi.edu/position/Researcher':
+									case 'http://lod.isi.edu/position_type/Researcher':
 										  globalData.researchers.push(globalData.people[i]);	
 										  break;
 									
-									case 'http://lod.isi.edu/position/GraduateStudent':
+									case 'http://lod.isi.edu/position_type/GraduateStudent':
 										  globalData.graduateStudents.push(globalData.people[i]);	
 										  break;
 									
-									case 'http://lod.isi.edu/position/Alumni':
+									case 'http://lod.isi.edu/position_type/Alumni':
 										  globalData.alumni.push(globalData.people[i]);	
 										  break;	  
 									}
