@@ -44,14 +44,22 @@ getJSON : function(requestParameters,res){
 	            		  		var re = new RegExp(entry.uriString);
 	            		        for (key in parsedJSON){
 	            		        	if (re.test(key)) {
-	            		        		var results = parsedJSON[key];
-	            		        		a.push(results);
+	            		        		//var results = parsedJSON[key];
+	            		        		//a.push(results);
+	            		        		a.push(key);
 	            		        	}
 	            		        }
 	            		      entry.createObject(a,pagedata,parsedJSON);  		
-	            		  	} // regEx if condition ends
+	            		  	} 
 	            		  	else {
-	            		  		// for conditions where regEx is not required.
+	            		  		// for conditions where regEx is not required. We have a topLevel uri.
+	            		  		pagedata.topLevel = parsedJSON[requestParameters.topLevelUri];
+	            		  		requestParameters.uris.forEach(function(entry){
+	                           		var results = pagedata.topLevel[entry.uriString];
+	                           		entry.createObject(results,pagedata,parsedJSON);
+	                           	});
+	            		  		
+	            		  		
 	            		  	}
 	                  	});
 	            	  callback();
@@ -62,20 +70,43 @@ getJSON : function(requestParameters,res){
 		/*for(var i=0; i<pagedata.graduateStudents.length ; i++ ){
 			console.log(pagedata.graduateStudents[i]['http://xmlns.com/foaf/0.1/firstName'][0].value);
 		}*/
+		//console.log(pagedata.alltriples['http://lod.isi.edu/person/id/1']);
+	//	console.log(pagedata.parsedResearchers);
+		
 		res.render(requestParameters.jadePageName,pagedata);
 	});
 	
 } ,
 
-sort: function(object,sortCriteria){
-		object.sort(function(a,b){
-		   var displayValueA = a[sortCriteria][0].value;
-		   var displayValueB = b[sortCriteria][0].value;
-		   return displayValueA - displayValueB; //ascending
-		});
+sort: function(arrayToSort,globalData,parsedJSON, sortCriteria,object){
+		
+	var sortedArray = new Array();
+	globalData[object]= new Array();
+	var counter = 0;
+	for (var i = 0; i < arrayToSort.length; i++) {
+		 var uri = arrayToSort[i];
+		 var d = parsedJSON[uri][sortCriteria][0].value;
+		 if(d){
+			 sortedArray[counter] = new Object();
+			 sortedArray[counter].uri = uri;
+			 sortedArray[counter].d = d;
+			 counter++;
+		 }	 
+	 }
+
+	sortedArray.sort(function(a,b){
+		 var displayValueA = a.d;
+		 var displayValueB = b.d;
+		 return displayValueA - displayValueB; //ascending	
+	 });
+
+	 for (var i = 0; i < sortedArray.length; i++) {
+			globalData[object].push(sortedArray[i].uri);
+	}
+	
 }
 ,
-sortData: function(results,globalData,parsedJSON, sortCriteria,object){
+sortOnDate: function(results,globalData,parsedJSON, sortCriteria,object){
 		
 		var sortedArray = new Array();
 		globalData[object]= new Array();

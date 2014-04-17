@@ -6,55 +6,131 @@ block content
 
     div.row
       ul.thumbnails.list-unstyled
+       each v, index in sortedProfessorsUris
         li.col-lg-2.col-md-3.col-sm-6.col-xs-12
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
-              a(href='http://www.isi.edu/integration/people/knoblock/')
-                img(src='http://www.isi.edu/integration/people/knoblock/img/CraigKnoblock.jpg')
+              if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
+               a(href=alltriples[v]['http://xmlns.com/foaf/0.1/homepage'][0].value)
+                if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                 img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+                else
+                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg') 
+              else
+               if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+               else
+                img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
             div.caption(style='margin-top:10px')
               h5
-                | Craig A. Knoblock
+                = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
-                | Director & Research Professor
-
-        li.col-lg-2.col-md-3.col-sm-6.col-xs-12
-          div.thumbnail.people_thumb(style='padding:0')
-            div.image_thumb(style='padding:4px;margin-top:5px')
-              a(href='http://www.isi.edu/integration/people/knoblock/')
-                img(src='http://www.isi.edu/integration/people/knoblock/img/CraigKnoblock.jpg')
-
-            div.caption(style='margin-top:10px')
-              h5
-                | Craig A. Knoblock
-              p(style="margin-top:10px")
-                | Director & Research Professor
+              if(alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'])
+               - var a = alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'][0].value
+               = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value 
+               span= " - "+alltriples[a]['http://www.w3.org/2000/01/rdf-schema#label'][0].value    
+              else
+               = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value
 
     h4.text-center
-      | Professors
+      | Researchers
 
     div.row
       ul.thumbnails.list-unstyled
+       each v, index in sortedResearchersUris
         li.col-lg-2.col-md-3.col-sm-6.col-xs-12
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
-              a(href='http://www.isi.edu/integration/people/knoblock/')
-                img(src='http://www.isi.edu/integration/people/knoblock/img/CraigKnoblock.jpg')
+              if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
+               a(href=alltriples[v]['http://xmlns.com/foaf/0.1/homepage'][0].value)
+                if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                 img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+                else
+                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg') 
+              else
+               if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+               else
+                img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
             div.caption(style='margin-top:10px')
               h5
-                | Craig A. Knoblock
+                = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
-                | Director & Research Professor
-
+              if(alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'])
+               - var a = alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'][0].value
+               = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value 
+               span= " - "+alltriples[a]['http://www.w3.org/2000/01/rdf-schema#label'][0].value    
+              else
+               = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value
+               
+    h4.text-center
+      | Graduate Students
+      
+    div.row
+      ul.thumbnails.list-unstyled
+       each v, index in sortedGraduateStudentsUris
         li.col-lg-2.col-md-3.col-sm-6.col-xs-12
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
-              a(href='http://www.isi.edu/integration/people/knoblock/')
-                img(src='http://www.isi.edu/integration/people/knoblock/img/CraigKnoblock.jpg')
+              if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
+               a(href=alltriples[v]['http://xmlns.com/foaf/0.1/homepage'][0].value)
+                if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                 img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+                else
+                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg') 
+              else
+               if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+               else
+                img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
             div.caption(style='margin-top:10px')
               h5
-                | Craig A. Knoblock
+                = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
-                | Director & Research Professor
+              if(alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'])
+               - var a = alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'][0].value
+               = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value 
+               span= " - "+alltriples[a]['http://www.w3.org/2000/01/rdf-schema#label'][0].value    
+              else
+               = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value
+            
+    h4.text-center
+      | Alumni    
+               
+    div.row
+      ul.thumbnails.list-unstyled
+       each v, index in sortedAlumniUris
+        li.col-lg-2.col-md-3.col-sm-6.col-xs-12
+          div.thumbnail.people_thumb(style='padding:0')
+            div.image_thumb(style='padding:4px;margin-top:5px')
+              if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
+               a(href=alltriples[v]['http://xmlns.com/foaf/0.1/homepage'][0].value)
+                if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                 img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+                else
+                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg') 
+              else
+               if(alltriples[v]['http://xmlns.com/foaf/0.1/depiction']) 
+                img(src=alltriples[v]['http://xmlns.com/foaf/0.1/depiction'][0].value)
+               else
+                img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
+
+            div.caption(style='margin-top:10px')
+              h5
+                = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
+              p(style="margin-top:10px")
+              if(alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'])
+               - var a = alltriples[v]['http://vivoweb.org/ontology/core#currentlyHeadOf'][0].value
+               if(alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'])
+                = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value 
+                span= " - "+alltriples[a]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
+               else
+                = alltriples[a]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
+                if(alltriples[a]['http://vivoweb.org/ontology/core#address1']) 
+                 span= " - "+alltriples[a]['http://vivoweb.org/ontology/core#address1'][0].value  
+              else
+               if(alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'])
+                = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value

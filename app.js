@@ -32,42 +32,43 @@ requestParams.query = "CONSTRUCT { ?s ?p ?o } where { ?s ?p ?o }"	;
 requestParams.uris = new Array();
 requestParams.uris = [   {  useRegEx: "true" , uriString: "^" + 'http://lod.isi.edu/person/id/' + "[0-9]" , 
 							createObject: function(results, globalData,parsedJSON){
-								globalData.people = results;
-								globalData.professors = new Array();
-								globalData.researchers = new Array();
-								globalData.graduateStudents = new Array();
-								globalData.alumni = new Array();
+								globalData.peopleUris = results;
+								globalData.professorsUris = new Array();
+								globalData.researchersUris = new Array();
+								globalData.graduateStudentsUris = new Array();
+								globalData.alumniUris = new Array();
 								
 								// build different objects based on type of Position 
-								for(var i=0; i < globalData.people.length ; i++ ){
-									var pos = globalData.people[i]['http://vivoweb.org/ontology/core#personInPosition'];
-									console.log("^^^^^^^^^^^^^^^^^^^^^^^");
-									console.log(pos);
+								for(var i=0; i < globalData.peopleUris.length ; i++ ){
+									var peopleUri = globalData.peopleUris[i];
+									var pos = globalData.alltriples[peopleUri]['http://vivoweb.org/ontology/core#personInPosition'];
+									//console.log("^^^^^^^^^^^^^^^^^^^^^^^");
+									//console.log(pos);
 									var posType = pos[0].value;
 									switch (posType) {
 									case 'http://lod.isi.edu/position_type/Professor':
-										  globalData.professors.push(globalData.people[i]);	
+										  globalData.professorsUris.push(peopleUri);	
 										  break;
 									
 									case 'http://lod.isi.edu/position_type/Researcher':
-										  globalData.researchers.push(globalData.people[i]);	
+										  globalData.researchersUris.push(peopleUri);	
 										  break;
 									
 									case 'http://lod.isi.edu/position_type/GraduateStudent':
-										  globalData.graduateStudents.push(globalData.people[i]);	
+										  globalData.graduateStudentsUris.push(peopleUri);	
 										  break;
 									
 									case 'http://lod.isi.edu/position_type/Alumni':
-										  globalData.alumni.push(globalData.people[i]);	
+										  globalData.alumniUris.push(peopleUri);	
 										  break;	  
 									}
 								}
 								
-								// sort on display order
-								util.sort(globalData.professors, 'http://vivoweb.org/ontology/core#preferredDisplayOrder' );
-								util.sort(globalData.researchers, 'http://vivoweb.org/ontology/core#preferredDisplayOrder' );
-								util.sort(globalData.graduateStudents, 'http://vivoweb.org/ontology/core#preferredDisplayOrder' );
-								util.sort(globalData.alumni, 'http://vivoweb.org/ontology/core#preferredDisplayOrder' );
+								util.sort(globalData.researchersUris,globalData,parsedJSON,'http://vivoweb.org/ontology/core#preferredDisplayOrder','sortedResearchersUris');
+								util.sort(globalData.professorsUris,globalData,parsedJSON,'http://vivoweb.org/ontology/core#preferredDisplayOrder','sortedProfessorsUris');
+								util.sort(globalData.graduateStudentsUris,globalData,parsedJSON,'http://vivoweb.org/ontology/core#preferredDisplayOrder','sortedGraduateStudentsUris');
+								util.sort(globalData.alumniUris,globalData,parsedJSON,'http://vivoweb.org/ontology/core#preferredDisplayOrder','sortedAlumniUris');
+								
 							}
 						 }
 
