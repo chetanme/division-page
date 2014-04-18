@@ -22,12 +22,12 @@ app.use(stylus.middleware(
 ))
 app.use(express.static(__dirname + '/public'))
 
-app.listen(3000);
-console.log("Listening on 3000");
+app.listen(3001);
+console.log("Listening on 3001");
 var requestParams = new Object();
 requestParams.host = "localhost";
 requestParams.port = "8080"	;
-requestParams.endpoint = "/openrdf-sesame/repositories/divisionpage?query="	;
+requestParams.endpoint = "/openrdf-sesame/repositories/division-page?query="	;
 requestParams.query = "CONSTRUCT { ?s ?p ?o } where { ?s ?p ?o }"	;
 requestParams.uris = new Array();
 requestParams.uris = [   {  useRegEx: "true" , uriString: "^" + 'http://lod.isi.edu/person/id/' + "[0-9]" , 
