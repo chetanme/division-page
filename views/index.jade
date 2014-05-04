@@ -1,13 +1,13 @@
 extend layout
 block content
-  div.container
+  div.container(style='padding:0;width:97.5%')
     h4.text-center
       | Professors
 
     div.row
       ul.thumbnails.list-unstyled
        each v, index in sortedProfessorsUris
-        li.col-lg-2.col-md-3.col-sm-6.col-xs-12
+        li.col-lg-2.col-md-3.col-sm-6.col-xs-12(style='width:20%')
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
               if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
@@ -22,7 +22,7 @@ block content
                else
                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
-            div.caption(style='margin-top:10px')
+            div.caption(style='margin-top:10px;text-align:center;')
               h5
                 = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
@@ -39,7 +39,7 @@ block content
     div.row
       ul.thumbnails.list-unstyled
        each v, index in sortedResearchersUris
-        li.col-lg-2.col-md-3.col-sm-6.col-xs-12
+        li.col-lg-2.col-md-3.col-sm-6.col-xs-12(style='width:20%')
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
               if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
@@ -54,7 +54,7 @@ block content
                else
                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
-            div.caption(style='margin-top:10px')
+            div.caption(style='margin-top:10px;text-align:center;')
               h5
                 = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
@@ -71,7 +71,7 @@ block content
     div.row
       ul.thumbnails.list-unstyled
        each v, index in sortedGraduateStudentsUris
-        li.col-lg-2.col-md-3.col-sm-6.col-xs-12
+        li.col-lg-2.col-md-3.col-sm-6.col-xs-12(style='width:20%')
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
               if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
@@ -86,7 +86,7 @@ block content
                else
                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
-            div.caption(style='margin-top:10px')
+            div.caption(style='margin-top:10px;text-align:center;')
               h5
                 = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
@@ -103,7 +103,7 @@ block content
     div.row
       ul.thumbnails.list-unstyled
        each v, index in sortedAlumniUris
-        li.col-lg-2.col-md-3.col-sm-6.col-xs-12
+        li.col-lg-2.col-md-3.col-sm-6.col-xs-12(style='width:20%')
           div.thumbnail.people_thumb(style='padding:0')
             div.image_thumb(style='padding:4px;margin-top:5px')
               if(alltriples[v]['http://xmlns.com/foaf/0.1/homepage'])
@@ -118,7 +118,7 @@ block content
                else
                 img(src='http://isi.edu/integration/img/NoProfilePicture.jpg')   
 
-            div.caption(style='margin-top:10px')
+            div.caption(style='margin-top:10px;text-align:center;')
               h5
                 = alltriples[v]['http://www.w3.org/2000/01/rdf-schema#label'][0].value
               p(style="margin-top:10px")
