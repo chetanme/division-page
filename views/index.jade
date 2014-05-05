@@ -134,3 +134,7 @@ block content
               else
                if(alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'])
                 = alltriples[v]['http://vivoweb.org/ontology/core#hrJobTitle'][0].value
+                
+    h2.text-center
+      | Last updated on :  
+      = alltriples['http://lod.isi.edu/division/people/data/']['http://lod.isi.edu/division/information-integration/lastUpdatedDate'][0].value
