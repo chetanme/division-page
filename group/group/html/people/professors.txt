@@ -1,0 +1,6 @@
+http://www.isi.edu/integration/people/knoblock/img/CraigKnoblock.jpg,http://www.isi.edu/integration/people/knoblock/,Craig A. Knoblock,Director & Research Professor
+http://www.isi.edu/integration/people/lerman/img/KLerman.jpg,http://www.isi.edu/integration/people/lerman/,Kristina Lerman,Project Leader & Research Associate Professor
+http://www.isi.edu/integration/people/ambite/img/jose_ambite.jpg,http://isi.edu/~ambite/,Jose Luis Ambite,Project Leader & Research Assistant Professor
+http://www.isi.edu/integration/people/szekely/img/Szekely.jpg,http://www.isi.edu/~szekely/,Pedro Szekely,Project Leader
+http://www.isi.edu/integration/people/ychang/img/Ychang.jpg,http://www.yuhanchang.com/,Yu-Han Chang,Project Leader & Research Assistant Professor
+http://www.isi.edu/integration/people/chiang/img/yaoyi.jpg,http://www.isi.edu/~yaoyichi/,Yao-Yi Chiang,Graduate Research Assistant

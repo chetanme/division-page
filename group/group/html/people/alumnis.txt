@@ -1,0 +1,24 @@
+http://www.isi.edu/~mariam/eu.jpg,http://www.isi.edu/~mariam/,Maria Codruta Muslea,Research Programmer
+http://www.isi.edu/integration/people/chunnan/img/chunnan.jpg,http://www.isi.edu/integration/people/chunnan/,Chun-Nan Hsu,Computer Scientist
+http://www.isi.edu/integration/people/tallis/img/marcelo-tallis.jpg,http://www.isi.edu/people/tallis/,Marcelo Tallis,Research Programmer
+http://www.isi.edu/integration/people/gupta/img/MyPic.jpg,http://www.isi.edu/integration/people/gupta/,Shubham Gupta,Research Programmer
+http://www.isi.edu/integration/people/alumni/arens/img/yigal.jpg,http://www.isi.edu/arens,Yigal Arens,Divisional Director, Intelligent Systems Division
+http://www.isi.edu/integration/people/alumni/tuchinda/img/shapeimage_13.jpg,,Rattapoom Tuchinda,NECTC, Thailand
+http://www.isi.edu/integration/people/alumni/ashish/img/n1.jpg,http://www.ics.uci.edu/~ashish/,Naveen Ashish,University of California-Irvine
+http://isi.edu/integration/img/NoProfilePicture.jpg,http://www.rahulbakshi.com/,Rahul Bakshi,Software Engineer, SiRF Technology Inc
+http://www.isi.edu/integration/people/alumni/barish/img/img.png,http://www.barish.org/greg,Greg Barish,Chief Architect-Fetch Technologies
+http://bradipo.net/mark/images/me.jpg,http://bradipo.net/mark/,Mark James Carman,PostDoc, University of Lugano-Switzerland.
+http://www.isi.edu/integration/people/alumni/plangpra/img/AnonMay10.jpg,http://sites.google.com/site/anonplangprasopchok/,Anon Plangprasopchok,NECTC-Thailand
+http://isi.edu/integration/img/NoProfilePicture.jpg, ,Dan DiPasquo,Symantec Corporation
+http://isi.edu/integration/img/NoProfilePicture.jpg,http://www-scf.usc.edu/~parundek/index.html,Rahul Parundekar,Graduate Research Assistant
+http://www.adventiumlabs.org/files/images/Martin_MIchalowski_Head_Shot.jpg,http://www.adventiumlabs.org/people/michalowski,Martin Michalowski,Adventium Labs
+http://www.isi.edu/integration/people/michelso/me.JPG,http://www.isi.edu/integration/people/michelso/index.html,Matthew Michelson,Fetch Technologies
+http://isi.edu/integration/img/NoProfilePicture.jpg, ,Steve Minton,Chief Technical Officer - Fetch Technologies
+http://isi.edu/integration/img/NoProfilePicture.jpg, ,Pragnesh Jay Modi,Alumini
+http://isi.edu/integration/img/NoProfilePicture.jpg,http://www.isi.edu/%7Emuslea/,Ion Muslea,Research Scientist, Language Weaver, Inc.
+http://isi.edu/integration/img/NoProfilePicture.jpg,http://www-2.cs.cmu.edu/~jeanoh/,Jean Oh,PostDoc - Carnegie Mellon University
+http://www.isi.edu/integration/people/alumni/goel/img/amangoel.jpg,http://www.isi.edu/~amangoel/,Aman Goel,Graduate Research Assistant
+http://www.isi.edu/integration/people/alumni/ghosh/img/Rumi_Ghosh.jpg,http://www.isi.edu/~ghosh/,Rumi Ghosh,Graduate Research Assistant
+http://www.isi.edu/integration/people/alumni/sofmac/img/Macskassy.jpg,http://www.isi.edu/~sofmac/,Sofus A. Macskassy,Project Leader & Research Assistant Professor	
+http://www-bcf.usc.edu/~stejada/Sheila2012.jpg,http://www-bcf.usc.edu/~stejada/,Sheila Tejada,Senior Lecturer-USC
+http://isi.edu/integration/img/NoProfilePicture.jpg, ,Snehal Thakkar,Google Inc.
