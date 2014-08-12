@@ -1,5 +1,6 @@
 var async = require('async')
   , http = require('http')
+  , underscore = require('underscore');
 
 
 module.exports = {
@@ -72,8 +73,16 @@ getJSON : function(requestParameters,res){
 		}*/
 		//console.log(pagedata.alltriples['http://lod.isi.edu/person/id/1']);
 	//	console.log(pagedata.parsedResearchers);
-		
-		res.render(requestParameters.jadePageName,pagedata);
+		console.log("-------------------------------");
+		console.log(pagedata.alltriples);
+		 
+		if(underscore.isEmpty(pagedata.alltriples)){
+			console.log("system under maintenance");
+			res.render("error");
+		}
+		else {
+			res.render(requestParameters.jadePageName,pagedata);
+		}
 	});
 	
 } ,
