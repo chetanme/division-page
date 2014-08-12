@@ -1,0 +1,324 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="icon" href="http://www3.isi.edu/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www3.isi.edu/favicon.ico" type="image/x-icon" />
+<title>Information Integration Research Group: Projects</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script language="javascript" type="text/javascript" src="../scripts/AC_RunActiveContent.js"></script>
+<link rel="stylesheet" href="http://www.isi.edu/integration/people/support_files/stylesheets/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://www.isi.edu/integration/people/support_files/stylesheets/default.css" type="text/css" media="all">
+<script type="text/javascript">
+// <![CDATA[
+var myMenu;
+window.onload = function() {
+myMenu = new SDMenu("my_menu");
+myMenu.init();
+};
+// ]]>
+</script>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="805">
+<tr>
+<td height="157" valign="top"><a name="top"></a>
+<br><br><table border="0" cellpadding="0" cellspacing="0" width="805" align="center">
+<tr>
+<td valign="top" width="260" rowspan="4"><a href="http://www.usc.edu" target="_blank"><img src="http://www.isi.edu/integration/img/usclogo.png"  alt="University of Southern California" border="0"></a><br/><br/><br><a href="http://www.isi.edu"><img src="http://www.isi.edu/integration/img/isi_logotype.png" width="260" alt="ISI Site Signature" border="0"></a></td> 
+<td width="492"></td>
+<td valign="top" align="right" 
+<a href="http://www.usc.edu" target="_blank"><img src="http://www3.isi.edu/site-jpg-usc_logo.jpg" width="43" height="28" alt="University of Southern California" border="0"></a></td>
+<br>
+</tr>
+<tr>
+<td valign="top" colspan="2" valign="top" align="right"><br/>
+<br><br><br>
+<a href="index.html" style="text-decoration:none"><span class="group_name">Information Integration</span><br><font style=" font-size:18px; font-style:italic; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; color:#FFF; line-height:18px">Research Group</font></a><br/>
+</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</tr>
+<tr>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0" align="center" width="805" bgcolor="#FFFFFF">
+<tr>
+<td width="1" bgcolor="#B5B5B5"></td>
+<td width="200" valign="top" class="navigation_cell" bgcolor="#F4F4E1"><table border="0" cellpadding="0" cellspacing="0" align="center" width="200" bgcolor="#F4F4E1" id="my_menu">
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header">
+<span><a href="../index.html">Overview</a></span>
+</td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header">
+<span><a href="../about.html">About</a></span>
+</td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header">
+<span><a href="../people.html">People</a></span>
+ </td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header">
+<span><a href="../projects.html">Projects</a></span>
+</td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header">
+<span><a href="../publications.php">Publications</a></span>
+</td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header">
+<span><a href="../demos.html">Demos</a></span>
+ </td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+<tr>
+<td height="10" colspan="3"></td>
+</tr>
+<tr>
+<td width="10"></td>
+<td width="25" valign="top"><img src="http://www.isi.edu/integration/img/site-jpg-nav_gold_arrow.png"  height="18" alt="Arrow" border="0" style="margin:0 0 0 10px;"></td>
+<td width="165" class="nav_header" align="left">
+<span><a href="../software.html">Downloads</a></span>
+</td>
+</tr>
+<tr>
+<td height="1" colspan="3" class="nav_separator"></td>
+</tr>
+</table>
+</td>
+<td width="1" bgcolor="#FFFFFF"></td>
+<td width="1" bgcolor="#B5B5B5"></td>
+<td width="600" valign="top" class="main_page_text">
+<table width="600" border="0" cellspacing="0" cellpadding="0" class="page_content">
+	    <tr>
+	      <td width="17">&nbsp;</td>
+	      <td width="300">&nbsp;</td>
+	      <td width="265">&nbsp;</td>
+	      <td width="18">&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="page_sub_header_cardinal">Social Media Analysis</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	            <td></td>
+	            <td colspan="3" height="2"></td>
+              </tr>
+	          <tr>
+	            <td></td>
+	            <td colspan="2" height="1" bgcolor="#6C0000"></td>
+                <td></td>
+              </tr>
+	          <tr>
+	            <td></td>
+	            <td colspan="3" height="16"></td>
+              </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">The biggest story of the last few years has been the phenomenal growth of social media, and the technological, social and political transformations that accompanied it. Social media sparked an information revolution by putting knowledge production and communication tools in the hands of the masses. Today on sites such as Twitter, Flickr, and YouTube, large numbers of users publish rich content, annotate it with descriptive metadata, and engage in discussions and collaborations with others. Social media promises to transform how we create and use knowledge, respond to disasters, monitor environment, manage resources, and interact with the world and one another. Social media offers new research opportunities and challenges. Our group is studying dynamics of information spread along social ties, the constraints imposed by limited attention to an individual's ability to interact with others online, dynamics of visibility and how it can be manipulated to promote or suppress messages, and the role of content in the dynamics of information spread and evolution of networks.</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">Our methods will allow us to understand the collective effects of network structure, social interactions, and psychological constraints (e.g., limited attention), on dynamics of information spread, and will lead to more effective tools to leverage community's knowledge to address a number of problems, including identifying important trends, assessing information quality, and separating true information from rumors.</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td></td>
+	      <td colspan="2"><hr width="565"></td>
+	      <td></td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="paragraph_header_black" align="justify">Papers</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+         <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">Hogg, T. and K. Lerman, 2012. <a href="http://arxiv.org/abs/1202.0031" target="_blank">Social Dynamics of Digg</a>, <em>EPJ Data Scienced</em>.<br><a href="http://arxiv.org/abs/1202.0031" target="_blank">Paper</a></td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+         <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">K. Lerman and Hogg, T., 2010. <a href="http://arxiv.org/abs/1004.5354" target="_blank">Using a Model of Social Dynamics to Predict Popularity of News</a>, <em>Proc. of World Wide Web Conference</em>, Raleigh, NC.<br><a href="http://arxiv.org/abs/1004.5354" target="_blank">Paper</a></td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">Hogg, T. and K. Lerman, 2009. <a href="http://arxiv.org/abs/0904.0016" target="_blank">Stochastic Models of User-Contributory Web Sites</a>, <em>International Conference on Weblogs and Social Media</em>, San Jose, CA.<br><a href="http://arxiv.org/abs/0904.0016" target="_blank">Paper</a></td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">Lerman K., 2007. <a href="http://arxiv.org/abs/cs.CY/0703087" target="_blank">Social Information Processing in Social News Aggregation</a>, Extended version of the paper submitted to IEEE Internet Computing special issue on Social Search.<br><a href="http://arxiv.org/abs/cs.CY/0703087" target="_blank">Paper</a></td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">Lerman K., 2007. <a href="load.html?src=http://www.isi.edu/%7Elerman/papers/lerman2007snakdd.pdf">Dynamics of collaborative document rating systems</a>, in <em>Proceedings of KDD workshop on Social Network Analysis</em>.<br><a href="load.html?src=http://www.isi.edu/%7Elerman/papers/lerman2007snakdd.pdf">Paper</a></td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="paragraph_header_black" align="justify">Project Staff</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td>&nbsp;</td>
+	      <td colspan="2" class="main_page_text" align="justify">Kristina Lerman, USC<br>Ted Hogg, HP Labs</td>
+	      <td>&nbsp;</td>
+	      </tr>
+          <tr>
+	      <td height="16">&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+	      </tr>
+              </table>
+<td width="1" bgcolor="#B5B5B5"></td>
+</tr>
+<tr>
+<td colspan="6" height="12">
+</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td valign="top"><div id="footer"><table border="0" cellpadding="0" cellspacing="0" width="790">
+<tr>
+<td colspan="3" height="20"></td>
+</tr>
+<tr>
+<td width="270" valign="top" align="center" class="footer">&#169; 2013 The University of Southern California</td>
+<td width="340" valign="top" class="footer" align="center"><a href="http://www3.isi.edu/legal.htm">Legal</a> | <a href="http://policies.usc.edu/policies/personalinfo120104.pdf">Privacy Policy</a> | <a href="http://www.isi.edu/site_map.htm">Site Map</a></td>
+<td width="170" align="right" class="footer" valign="top"></td>
+</tr>
+<tr>
+<td colspan="3" height="30"></td>
+</tr>
+</table></div></td>
+</tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9191741-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
