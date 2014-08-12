@@ -73,7 +73,7 @@ getJSON : function(requestParameters,res){
 		}*/
 		//console.log(pagedata.alltriples['http://lod.isi.edu/person/id/1']);
 	//	console.log(pagedata.parsedResearchers);
-		console.log("-------------------------------");
+	//	console.log("-------------------------------");
 		console.log(pagedata.alltriples);
 		 
 		if(underscore.isEmpty(pagedata.alltriples)){
@@ -85,7 +85,7 @@ getJSON : function(requestParameters,res){
 		}
 	});
 	
-} ,
+} , 
 
 sort: function(arrayToSort,globalData,parsedJSON, sortCriteria,object){
 		
